@@ -21,9 +21,9 @@ Enter query: What should I deliver to complete the project?
 
 The deliverable for the project is a simple RAG-based question-answering or document-assistant app. This means you should create an application that uses the RAG (Retrieve And Generate) system to answer questions or assist with documents.
 
-Enter query: What is a due date of the module 1 project?
+Enter query: When should I submit the first project?
 
-The due date for the module 1 project is June 13, 2025 at 11:59 pm UTC.
+Your first project submission is due by June 13, 2025, at 11:59 PM UTC.
 ```
 
 The chat bot is limited to the context. If the query is not related to the data from the `texts` folder, it will respond something like this: 
