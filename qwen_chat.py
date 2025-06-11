@@ -13,7 +13,7 @@ class LocalQwenChat(BaseChatModel):
 
     # Using Qwen-7B model
     model_name: str = "Qwen/Qwen-7B-Chat"
-    device: str = "cpu" if torch.cuda.is_available() else "cpu"
+    device: str = "cuda" if torch.cuda.is_available() else "cpu"
     tokenizer: Any = None  
     model: Any = None      
 
