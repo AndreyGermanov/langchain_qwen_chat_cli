@@ -29,8 +29,8 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 
-# Exectures query on Qwen Chat, using 10 more releavant chunks from vector storage
-# as a context and returns the model answer
+# Executes query on Qwen Chat, using 10 more releavant chunks from vector storage
+# as a context and returns the answer
 def request_qwen(model,query):
 
     prompt_template = """
