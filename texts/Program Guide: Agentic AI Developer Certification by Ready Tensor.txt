@@ -1,0 +1,168 @@
+Program Guide: Agentic AI Developer Certification by Ready Tensor
+
+Welcome to the Agentic AI Developer Certification Program by Ready Tensor! This is a 12-week, hands-on learning journey where you'll design, build, and deploy intelligent, goal-driven AI systems.
+
+This page provides all essential information about the program, including:
+
+Program Overview
+How to Enroll
+How the Program Works
+Program Schedule
+Certification Process
+Project Details
+Team-Based Learning
+What's Not Covered
+What You'll Learn
+This program is structured into three comprehensive modules, each culminating in a practical, portfolio-worthy project:
+
+Module 1 (Weeks 1–4): Foundations of Agentic AI
+Explore core concepts including agent architectures, retrieval-augmented generation (RAG), and tool use. You'll build your first project—a question-answering assistant.
+Module 2 (Weeks 5–8): Architecting Agentic Workflows
+Learn to implement complex workflows, multi-agent collaboration, and Model Context Protocol (MCP)-aligned systems. Your second project involves creating a sophisticated multi-agent system.
+Module 3 (Weeks 9–12): Real-World Readiness
+Master guardrails, evaluation strategies, logging, documentation, and deployment using FastAPI or Streamlit. In your final project, you'll deliver a production-quality agentic AI system.
+How to Enroll
+Follow these steps to enroll in the program:
+
+Register for a free account on Ready Tensor (if you don't have one already). 
+Sign-up here
+.
+Enroll in the program. Navigate to the 
+Ready Tensor Certifications hub
+.
+Near the top of the page, click the "Request to Join" button to request access. Note the button will not be visible unless you are logged into the platform (see Step 1 above).
+Once your request to join is approved, you are officially enrolled! You'll have immediate access to program materials, including weekly lectures, reading materials, and project guidelines.
+The program begins on May 19th, 2025. You can enroll up until June 6th, the due date for the first project.
+
+Certification is Free — Expert Feedback is Optional
+The certification program is completely free. All participants who complete the requirements will receive an official Agentic AI Developer Certificate.
+
+However, if you wish to receive expert feedback and guidance on your projects, you can subscribe to the Pro or Team plan on Ready Tensor. These plans include structured project reviews, personalized feedback, and direct support from AI experts to help you refine your work and grow faster.
+
+How the Program Works
+Each week follows a consistent and engaging format:
+
+Weekly Lectures: Pre-recorded sessions (30–60 minutes) that cover key concepts. Each lecture includes a Q&A segment based on participant questions from the previous week's content, hosted via our 
+Discord
+ server.
+Reading Materials: Curated readings, publications, and templates provided weekly to deepen your understanding and support your project work.
+Weekly Assignments: Practical, task-oriented assignments that progressively build toward each module’s project. These are not graded, but serve as structured practice to help you prepare.
+Community Engagement: Join our 
+Discord server
+ for ongoing discussions, collaborative learning, and peer support.
+Project Submissions: You’ll submit one main project per module (three in total), either individually or in teams of up to five. Projects must be published on a Ready Tensor platform to be eligible for grading.
+Program Schedule
+The program schedule is as follows (also see attachment titled Agentic_AI_Developer_Certification_Schedule.pdf).
+
+Module 1: Foundations of Agentic AI (Weeks 1–4)
+Lays the groundwork for understanding and constructing agentic systems.
+
+Week 1: Introduction to Agentic AI Systems (May 19, 2025)
+What is Agentic AI? Definitions, terminology, and motivations
+Core Components of Agentic AI
+Real-world use cases and emerging trends
+Tools and Frameworks
+Differentiation of Agents and Workflows
+Week 2: Prompts, Embeddings and RAG (May 26, 2025)
+Basic prompting
+Introduction to RAG systems
+Vector databases and embedding models (FAISS, Chroma, etc.)
+Week 3: Hands-On with LLM calls, workflows and RAG (June 02, 2025)
+Making your first LLM call
+Building a Workflow
+Building a RAG system
+Week 4: Project 1 - Build a RAG-Powered AI App (June 09, 2025)
+Project-focused week with no new video lectures or required readings
+Participants work on building a question-answering or document-assistant app
+Chain design: Prompt + Retrieval + Response
+Integration with a vector store and basic evaluation loop
+Optional: Add memory, tool usage, or intermediate reasoning
+Deliverable: A simple RAG-based agent system with working retrieval and output
+Note: Participants may begin project work earlier during Weeks 2–3 if desired
+Your module 1 project is due by 11:59 pm UTC on June 13, 2025.
+Module 2: Architecting Agentic AI Systems (Weeks 4–8)
+Focuses on building autonomous and collaborative agents using modular and extensible systems.
+
+Week 5: Agent Architectures & Planning Techniques (June 16, 2025)
+Agent execution models: tool-using agents, reactive vs. deliberative
+Planning mechanisms: zero-shot, few-shot, and learned planning
+Introducing MCP: Model Context Protocol
+Tool abstractions, APIs, and self-reflection
+Introduction to LangGraph and directed workflow graphs
+Building your first agentic workflow in LangGraph
+Week 6: Multi-Agent Systems & Collaboration (June 23, 2025)
+Design patterns for multi-agent coordination
+Communication protocols and messaging (e.g., broadcast, direct, shared memory)
+Role assignment and inter-agent task delegation
+Coordinated tool use and shared context
+Use cases: decentralized planning, team-of-agents models
+Best practices for evaluating multi-agent performance
+Week 7: Advanced Agent Evaluation Techniques (June 30, 2025)
+Evaluating agent autonomy and reasoning quality
+Measuring collaboration effectiveness in multi-agent systems
+Human-in-the-loop testing and intervention
+Benchmarking against baselines and predefined goals
+Dataset creation for agent evaluation
+Week 8: Project 2 - Build a Multi-Agent System (July 07, 2025)
+Project-focused week with no new video lectures or required readings
+Participants design a system of modular, composable agents
+Implement inter-agent communication and memory sharing
+Apply LangGraph to orchestrate role-based agent workflows
+Optionally incorporate persistence via memory layers or vector DBs
+Deliverable: A functional, MCP-aligned multi-agent system capable of collaborative problem solving
+Note: Participants may begin project work earlier during Weeks 6–7 if desired
+Your module 2 project is due by 11:59 pm UTC on July 11th, 2025.
+Module 3: Preparing Agentic AI for Real-World Use (Weeks 9–12)
+Equips participants with essential skills for building safe, evaluable, and deployable systems.
+
+Week 9: Guardrails, Evaluation, and Safety (July 14, 2025)
+Prompt protection and safety frameworks (Guardrails.ai, Rebuff, etc.)
+Input/output validation and structured output constraints
+Defining evaluation metrics: success, efficiency, alignment
+Instrumentation and logging (LangSmith, OpenTelemetry basics)
+Case studies: agent failure modes and mitigation
+Week 10: Deployment & Scalability Considerations (July 21, 2025)
+When and how to deploy agentic systems
+Lightweight deployment: FastAPI + containers
+Hosting options: Hugging Face Spaces, Render, Streamlit, Gradio
+Vector DB hosting, rate-limits, and cost considerations
+Monitoring basics: tracing, usage tracking, user feedback
+Week 11: Advanced Deployment Case Studies & Troubleshooting (July 28, 2025)
+Scaling agents in production settings
+Troubleshooting common deployment issues
+Advanced observability and performance profiling
+Security, reliability, and failover considerations
+Real-world case studies and deployment architectures
+Week 12: Final Project - Production-Aware Agentic AI System (August 04, 2025)
+Project-focused week with no new video lectures or required readings
+Capstone project: Productionize your Week 8 multi-agent system
+Add guardrails, logging, and simple deployment wrapper
+Document limitations, assumptions, and intended use
+Deliverable: A portfolio-ready, production-aware agentic AI application
+Note: Participants may begin final project work earlier during Weeks 10–11 if desired
+The final project is due by 11:59 pm UTC on August 8th, 2025.
+Certification Process
+To earn your Agentic AI Developer Certificate, you must:
+
+Complete all three hands-on projects by their due dates. Publish each completed project publicly on the Ready Tensor platform, including comprehensive documentation and a repository link.
+Achieve at least a 70% score per project based on the evaluation criteria provided in the AAIDC Project Evaluation Criteria.pdf attachment (to be uploaded soon).
+Project Details
+Each project is designed to be a portfolio piece, showcasing your skills and understanding of agentic AI systems. The projects are described in detail in the Agentic_AI_Developer_Certification_Projects.pdf attachment.
+
+Team-Based Learning
+We strongly encourage participants to complete projects in teams (3–4 members recommended). This mirrors real-world professional workflows and maximizes skill diversity:
+
+AI/ML Theory Expert: Knowledge of embeddings, transformers, and applied AI concepts.
+Programming Expert: Skilled in Python, clean coding, and version control.
+Documentation Expert: Adept at creating polished documentation and visuals.
+UI Expert: Experienced in building professional-quality apps using Streamlit or Gradio.
+Solo projects are permitted but strongly discouraged. Team formation and collaboration are facilitated via our Discord community.
+
+What's Not Covered
+This certification focuses specifically on agentic system development with existing models and APIs. It does not include:
+
+Model training or fine-tuning
+Self-hosting of foundation models
+Full-scale ML-Ops or CI/CD pipelines
+Enterprise-level security frameworks
+Advanced front-end development
