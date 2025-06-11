@@ -1,4 +1,4 @@
-# Qwen Chat Langchain CLI
+# Qwen Chat Langchain RAG CLI
 
 ## About
 
