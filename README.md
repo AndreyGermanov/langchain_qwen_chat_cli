@@ -4,7 +4,7 @@
 
 This is a command line Chat Bot, that uses locally installed [Qwen Chat 7B model](https://huggingface.co/Qwen/Qwen-7B-Chat) to respond to requests. To process queries, it uses text files located in the "texts" folder as a knowledge base. During run, the application creates vector embeddings from these files and stores these embeddings to Chroma database. Then, when receive the question from user, it selects top 10 text chunks from this database, which are close to this question by cosine similarity and injects these texts as a context to the prompt, that LLM uses to generate an answer for the user.
 
-By default, the "texts" folder contains content of all articles of [ReadyTensor Agentic AI Developer Certification Program]() until 11 Jun 2025. So, you can ask questions about the first module of this program.
+By default, the "texts" folder contains content of all articles of [ReadyTensor Agentic AI Developer Certification Program](https://app.readytensor.ai/hubs/ready_tensor_certifications) until 11 Jun 2025. So, you can ask questions about the first module of this program.
 
 Example chat:
 
@@ -65,7 +65,7 @@ Run the program using the following command:
 python app.py
 ```
 
-During first run it should download the QwenChat LLM model from HuggingFace Hub, which can take some time.
+During first run it should download the Qwen Chat 7B LLM model from HuggingFace Hub, which can take some time.
 
 Then, you should see the prompt `Enter query: `.
 
